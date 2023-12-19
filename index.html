@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>List Channel IRC Protocol - Chat</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto; /* Centra la tabla */
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50; /* Color de fondo del encabezado */
+            color: white;
+        }
+
+        td:nth-child(2n) {
+            background-color: #F4CCE7; /* Color de fondo de las celdas pares */
+        }
+
+        td:nth-child(2n+1) {
+            background-color: #ADD8E6; /* Color de fondo de las celdas impares */
+        }
+
+        center b {
+            font-size: 16px; /* Ajusta el tamaño del título */
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>List Channel IRC Protocol - Chat /</h1>
+        <h2>Lista de canales Protocolo IRC </h2>
+        <h3>Que es IRC:</h3>
+        <h4>Internet Relay Chat (IRC) Protocolo 1988,
+
+            Permite Conectar y comunicarse en salas, chat en tiempo real. (Servers - Salas o Canales - Clientes.)
+<br>
+<br>
+            Protocolos Alternos:
+<br>
+<br>
+            1.Tox
+            <br>
+            2.Matrix
+            <br>
+            3.Xmpp (jabber)
+         <br>
+<br><br>
+Clientes IRC:IRSSI (Terminal) - HexChat (Grafico) - pidgin (Grafico).
+<table border="1">
+<p></p>
+ 
+
+
+        </h4>
+       
+
+        <tr>
+            <td><b>*Algunos Comandos para Conectar y Usar:</b></td>
+            <td><b>*Info Adicional:</b></td>
+           </tr>
+
+        <tr>
+            <td><b>/server</b></td>
+            <td><b>Nombre Server</b></td>
+           
+        </tr>
+        <tr>
+            <td><b>/nick</b></td>
+            <td><b>Apodo</b></td>
+           
+        </tr>
+
+        <tr>
+            <td><b>/list</b></td>
+            <td><b>Muestra Listado Canales</b></td>
+           
+        </tr>
+
+        <tr>
+            <td><b>/join #canal</b></td>
+            <td><b>Ingresar a canal o sala</b></td>
+           
+        </tr>
+
+
+        <tr>
+            <td><b>/msg </b></td>
+            <td><b>NombreUser Enviar Mensaje Privado</b></td>
+           
+        </tr>
+
+
+        <tr>
+            <td><b>/part #canal</b></td>
+            <td><b>Abandonar Canal con Mensaje Despedida</b></td>
+           
+        </tr>
+
+
+
+        <tr>
+            <td><b>/quit</b></td>
+            <td><b>Desconectar Server</b></td>
+           
+        </tr>
+
+
+
+
+        <tr>
+            <td><b>/whois =User</b></td>
+            <td><b>Obtiene info del user</b></td>
+           
+        </tr>
+
+
+
+
+        <tr>
+            <td><b>/topic #canal</b></td>
+            <td><b>Tema actual del canal</b></td>
+           
+        </tr>
+
+
+
+        <tr>
+            <td><b>/join #canalnombre</b></td>
+            <td><b>Acceder a canal y si no esta creado lo crea</b></td>
+           </tr>
+
+           <tr>
+            <td><b>/connect +NameServer</b></td>
+            <td><b>Conectar a server </b></td>
+           </tr>
+
+
+
+           <tr>
+            <td><b>/server list</b></td>
+            <td><b>Muestra opciones disponibles</b></td>
+           </tr>
+
+
+
+    </table>
+        <table border="1">
+            <tr>
+                <th>Server</th>
+                <th>Port</th>
+                <th>Network</th>
+                <th>Settings</th>
+            </tr>
+            <h4>Irssi v1.4.5 - https://irssi.org</h4>
+            <tr>
+                <td><b>irc.dal.net </b></td>
+                <td><b>6667</b></td>
+                <td><b>DALnet</b></td>
+                <td><b></b></td>
+            </tr>
+            <tr>
+                <td><b>ssl.efnet.org</b></td>
+                <td><b>9999</b></td>
+                <td><b>EFNet</b></td>
+                <td><b>tls, notls_verify</b></td>
+            </tr>
+            <tr>
+                <td><b>irc.esper.net </b></td>
+                <td><b>6697</b></td>
+                <td><b>EsperNet</b></td>
+                <td><b>tls</b></td>
+            </tr>
+            <tr>
+                <td><b>irc.libera.chat</b></td>
+                <td><b>6697</b></td>
+                <td><b>liberachat</b></td>
+                <td><b>tls</b></td>
+            </tr>
+            <tr>
+                <td><b>irc.gamesurge.net </b></td>
+                <td><b>6667</b></td>
+                <td><b>GameSurge</b></td>
+                <td><b></b></td>
+            </tr>
+            <tr>
+                <td><b>ssl.ircnet.ovh</b></td>
+                <td><b>6697</b></td>
+                <td><b>IRCnet</b></td>
+                <td><b>tls</b></td>
+            </tr>
+            <tr>
+                <td><b>open.ircnet.net</b></td>
+                <td><b>6667</b></td>
+                <td><b>IRCnet</b></td>
+                <td><b></b></td>
+            </tr>
+            <tr>
+                <td><b>irc.ircsource.net</b></td>
+                <td><b>6667</b></td>
+                <td><b>IRCSource</b></td>
+                <td><b></b></td>
+            </tr>
+            <tr>
+                <td><b>irc.netfuze.net</b></td>
+                <td><b>6667</b></td>
+                <td><b>NetFuze</b></td>
+                <td><b></b></td>
+            </tr>
+            <tr>
+                <td><b>irc.oftc.net</b></td>
+                <td><b>6697</b></td>
+                <td><b>OFTC</b></td>
+                <td><b>tls</b></td>
+            </tr>
+            <tr>
+                <td><b>irc.quakenet.org</b></td>
+                <td><b>6667</b></td>
+                <td><b>QuakeNet</b></td>
+                <td><b></b></td>
+            </tr>
+            <tr>
+                <td><b>irc.rizon.net</b></td>
+                <td><b>6697</b></td>
+                <td><b>Rizon</b></td>
+                <td><b>tls</b></td>
+            </tr>
+            <tr>
+                <td><b>irc.undernet.org</b></td>
+                <td><b>6667</b></td>
+                <td><b>Undernet</b></td>
+                <td><b></b></td>
+            </tr>
+           </table>
+
+           <h4>HexChat</h4>
+           <table border="1">
+    <tr>
+        <td><b>Server</b></td>
+        <td><b>Server</b></td>
+        <td><b>Server</b></td>
+        <td><b>Server</b></td>
+    </tr>
+
+
+    <tr>
+        <td><b>irc.2600.net</b></td>
+        <td><b>irc.dairc.net</b></td>
+        <td><b>us.dal.net</b></td>
+        <td><b>irc.darkmyst.org</b></td>
+    </tr>
+
+
+    <tr>
+        <td><b>global.acn.gr</b></td>
+        <td><b>irc.darkscience.net</b></td>
+        <td><b>irc.drk.sc</b></td>
+        <td><b>irc.darkscience.ws</b></td>
+    </tr>
+
+    <tr>
+        <td><b>irc.afternet.org</b></td>
+        <td><b>irc.choopa.net</b></td>
+        <td><b>efnet.port80.se</b></td>
+        <td><b>irc.underworld.no</b></td>
+    </tr>
+
+
+    <tr>
+        <td><b>irc.data.lt</b></td>
+        <td><b>irc.d-t-net.de</b></td>
+        <td><b>irc.digitalirc.org</b></td>
+        <td><b>irc.dosers.net</b></td>
+    </tr>
+
+
+    <tr>
+        <td><b>irc.omicron.lt</b></td>
+        <td><b>efnet.deic.eu</b></td>
+        <td><b>irc.enterthegame.com</b></td>
+        <td><b>irc.entropynet.net</b></td>
+    </tr>
+
+
+
+    <tr>
+        <td><b>irc.vub.lt</b></td>
+        <td><b>irc.esper.net</b></td>
+        <td><b>irc.euirc.net</b></td>
+        <td><b>irc.europnet.org</b></td>
+    </tr>
+
+
+    <tr>
+        <td><b>irc.anthrochat.net</b></td>
+        <td><b>irc.gnome.org</b></td>
+        <td><b>irc.globalgamers.net</b></td>
+        <td><b>irc.hackint.org</b></td>
+    </tr>
+
+
+    <tr>
+        <td><b>arcnet-irc.org</b></td>
+        <td><b>irc.fdfnet.net</b></td>
+        <td><b>irc.gamesurge.net</b></td>
+        <td><b>irc.geekshed.net</b></td>
+    </tr>
+
+
+    <tr>
+        <td><b>irc.austnet.org</b></td>
+        <td><b>irc.german-elite.net</b></td>
+        <td><b>irc.gimp.org</b></td>
+        <td><b>irc.eu.hackint.org</b></td>
+    </tr>
+
+
+    <tr>
+        <td><b>irc.azzurra.org</b></td>
+        <td><b>irc.hashmark.net</b></td>
+        <td><b>irc.icq-chat.com</b></td>
+        <td><b>irc.interlinked.me</b></td>
+    </tr>
+
+
+
+    <tr>
+        <td><b>irc.canternet.org</b></td>
+        <td><b>irc.irc-nerds.net</b></td>
+        <td><b>irc.irc4fun.net</b></td>
+        <td><b>irc.irchighway.net</b></td>
+    </tr>
+
+
+
+    <tr>
+        <td><b>irc.chat4all.org</b></td>
+        <td><b>irc.irctoo.net</b></td>
+        <td><b>irc.kbfail.net</b></td>
+        <td><b>irc.libera.chat</b></td>
+    </tr>
+
+
+
+    <tr>
+        <td><b>irc.chatjunkies.org</b></td>
+        <td><b>open.ircnet.net</b></td>
+        <td><b>irc.liberta.casa</b></td>
+        <td><b>irc.librairc.net</b></td>
+    </tr>
+
+
+
+    <tr>
+        <td><b>irc.unibg.net</b></td>
+        <td><b>irc.link-net.org</b></td>
+        <td><b>irc.mindforge.org</b></td>
+        <td><b>irc.mixxnet.net</b></td>
+    </tr>
+
+
+
+    <tr>
+        <td><b>irc.chatpat.bg</b></td>
+        <td><b>irc.oceanius.com</b></td>
+        <td><b>irc.oftc.net</b></td>
+        <td><b>irc.othernet.org</b></td>
+    </tr>
+
+
+
+    <tr>
+        <td><b>irc.chatspike.net</b></td>
+        <td><b></b></td>
+        <td><b></b></td>
+        <td><b></b></td>
+    </tr>
+</table>
+
+    </center>
+</body>
+
+</html>
